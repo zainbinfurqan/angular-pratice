@@ -1,0 +1,5 @@
+<div class="toDoMain">
+    <app-items *ngFor="let item of toDoData" [todoitem]='item' (deleteToDo)="deleteToDo($event)">
+        <!-- <li>{{item.name}}</li> -->
+    </app-items>
+</div>

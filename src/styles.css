@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+margin:0 ;
+padding:0;
+}
+
+.toDoMain{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+.toDoItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        margin: 5px;
+}
+.toDoItemText{
+    font-family: monospace;
+    font-size: 19px
+}
+.deleteButtom{
+    color: white;
+    background-color: #c80a0a;
+    padding: 10px;
+    border: solid 1px grey;
+    border-radius: 5px;
+}
